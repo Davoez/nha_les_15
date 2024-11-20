@@ -1,0 +1,77 @@
+body{
+    background-color: lightslategray;
+    color:beige;
+    margin: auto;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+   
+    
+}
+
+ img{
+    
+    margin: auto;
+    padding: inherit;
+    width: 500px;
+    display: block;
+}
+
+
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom:0px;
+}
+
+table,th,td{
+    margin:auto;
+    text-align: center;
+    border: 2px solid;
+    border-color:black;
+    vertical-align: bottom;
+    border-radius: 5px;
+    background-color: darkgreen;
+  
+}
+
+ input[type="text"], input[type="email"], input[type="tel"], textarea, button[type="submit"]{
+    display: block;
+    margin: 15px 0px 25px 1185px;
+    border: 2px solid;
+    border-color: beige;
+    border-radius: 2px;
+    box-shadow: inset 2px 2px 5px green;
+    
+}
+
+button:active{
+    background-color: goldenrod;
+    color: white;
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px red;
+}
+
+a{
+    color: darkgoldenrod;
+    
+}
+
+a:hover{
+    color: chartreuse;
+    background-color: brown;
+}
+
+
+
+
